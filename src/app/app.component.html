@@ -1,0 +1,9 @@
+<h1>@Input and @OutPut</h1>
+<div class="parent">
+  <h2>Parent Component</h2>
+  <ul>
+    <li *ngFor="let fruit of Fruits">{{fruit}} </li>
+  </ul>
+
+  <app-child [Fruit]="ParentFruit" (newFruitEvent)="addFruit($event)"></app-child>
+ </div>

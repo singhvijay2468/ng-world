@@ -1,0 +1,8 @@
+.parent {
+    background-color: rgb(184, 197, 185);
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 10px;
+  }

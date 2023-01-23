@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Welcome to Hello-World';
+  title = 'InputOut';
+  ParentFruit='Mangoes';
+  Fruits = ['Cherry','BlueBerry','Orange'];
+
+  addFruit(newFruits: string){
+
+    this.Fruits.push(newFruits);
+  }
 }
